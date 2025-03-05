@@ -1,9 +1,11 @@
 # CliffCircular
 CliffCircular involves navigating in a gridworld circularly while avoiding falling off a cliff.
 
-<video width="320" height="240" controls>
-  <source src="CliffCircular-demo.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/user-attachments/assets/e9a16fa6-43b2-44bd-be26-1585cc7d7619
+
+
 
 ## Description
 The game starts with the player at a random location of the 12x12 grid world.

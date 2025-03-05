@@ -4,7 +4,12 @@ from cliffcircular.cliffcircular import CliffCircularEnv
 
 def main():
     # Create the environment
-    env = gym.make("CliffCircular-v1")
+    env = gym.make(
+        'CliffCircular-v1',
+        render_mode='human',  # or 'rgb_array' or 'ansi'
+        extra_cliff_num=1,  # or 0 or 1
+        cost_downscale_denom=5,
+    )
 
     # Reset the environment
     observation, info = env.reset()

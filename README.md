@@ -128,6 +128,12 @@ import gymnasium as gym
 gym.make('CliffCircular-v1')
 ```
 
+Or execute the sample script
+```bash
+python examples/run_cliffcircular.py
+```
+
+
 ## References
 <a id="cliffwalk_ref"></a>[1] R. Sutton and A. Barto, “Reinforcement Learning:
 An Introduction” 2020. [Online]. Available: [http://www.incompleteideas.net/book/RLbook2020.pdf](http://www.incompleteideas.net/book/RLbook2020.pdf)

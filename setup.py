@@ -8,7 +8,7 @@ with open(os.path.join(this_directory, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="cliffcircular",
-    version="0.1.0",
+    version="0.1.1",
     description="A custom Gymnasium gridworld environment for testing SafeRL algorithms for partially observable Constrained Submodular Markov Decision Processes",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -17,6 +17,10 @@ setup(
     url="https://github.com/EdisonPricehan/CliffCircular",
     license="GPLv3",
     packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        "cliffcircular": ["img/*.png"],
+    },
     install_requires=[
         "gymnasium>=0.26.0",
         "numpy>=1.21.0",

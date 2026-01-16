@@ -140,6 +140,18 @@ An Introduction” 2020. [Online]. Available: [http://www.incompleteideas.net/bo
 
 <a id="cliffwalk_ref"></a>[2] [Cliff Walking Gymnasium environment](https://gymnasium.farama.org/environments/toy_text/cliff_walking/)
 
+If you find this environment useful in your work, please kindly cite our paper:
+```
+@inproceedings{wang2024synergistic,
+  title={Synergistic Reinforcement and Imitation Learning for Vision-driven Autonomous Flight of UAV Along River},
+  author={Wang, Zihan and Li, Jianwen and Mahmoudian, Nina},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={9976--9982},
+  year={2024},
+  organization={IEEE}
+}
+```
+
 ## Version History
 - v0: Initial version release
 
